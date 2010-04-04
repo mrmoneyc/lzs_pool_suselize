@@ -1,1 +1,2 @@
 #pkg remove list
+google-chrome-beta

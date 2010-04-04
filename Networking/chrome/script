@@ -1,0 +1,13 @@
+#!/bin/bash
+
+case $(uname -m) in
+    "32")
+    zypper sa -t YUM http://dl.google.com/rpm/stable/i386 google
+    ;;
+    "64")
+    zypper sa -t YUM http://dl.google.com/rpm/stable/x86_64 google
+
+zypper update
+
+zypper install google-chrome-beta
+
