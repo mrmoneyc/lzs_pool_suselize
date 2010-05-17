@@ -1,0 +1,5 @@
+#pkg remove list
+mplayer
+smplayer
+vlc
+
