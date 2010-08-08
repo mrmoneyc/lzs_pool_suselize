@@ -1,3 +1,2 @@
 #pkg install list
-chmsee
-evince
+stardict

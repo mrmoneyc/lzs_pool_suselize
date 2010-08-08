@@ -1,3 +1,6 @@
-wget http://ardownload.adobe.com/pub/adobe/reader/unix/8.x/8.1.7/cht/AdobeReader_cht-8.1.7-1.i486.rpm
+#!/bin/bash
+source $LIB_ROOT/shlib.bash
+
+$WGET http://ardownload.adobe.com/pub/adobe/reader/unix/8.x/8.1.7/cht/AdobeReader_cht-8.1.7-1.i486.rpm
 rpm -Uvh AdobeReader_cht-8.1.7-1.i486.rpm
 
