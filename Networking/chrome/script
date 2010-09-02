@@ -6,6 +6,7 @@ case $(uname -m) in
     ;;
     "64")
     zypper sa -t YUM http://dl.google.com/rpm/stable/x86_64 google
+esac
 
 zypper update
 
